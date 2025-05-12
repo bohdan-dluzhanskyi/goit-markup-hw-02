@@ -4,6 +4,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
+  color: #434455;
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -14,7 +16,7 @@ ul {
 header {
   background-color: #fff;
 }
-.logo-style {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -24,7 +26,7 @@ header {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-1 {
+.logo-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -35,7 +37,7 @@ header {
   color: #2e2f42;
 }
 
-.navigation a {
+.navigation {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -44,10 +46,14 @@ header {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.navigation a:hover {
+.navigation:hover,
+.navigation:focus {
   color: #404bbf;
 }
-.contacts a {
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -56,13 +62,14 @@ header {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts a:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 .title {
   background-color: #2e2f42;
 }
-.title h1 {
+.title-main {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -72,7 +79,7 @@ header {
   text-align: center;
   color: #fff;
 }
-.title button {
+.title-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -83,13 +90,11 @@ header {
   cursor: pointer;
   background-color: #4d5ae5;
 }
-.title button:hover {
+.title-button:hover .title-button:focus {
   background-color: #404bbf;
 }
-.about {
-  background-color: #fff;
-}
-.about h3 {
+
+.about-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -98,7 +103,7 @@ header {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.about p {
+.about-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -110,7 +115,7 @@ header {
 .teem {
   background-color: #f4f4fd;
 }
-.teem h2 {
+.teem-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -119,8 +124,12 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
-.teem h3 {
+.teem-list {
+  background-color: #ffffff;
+}
+.list-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -130,7 +139,7 @@ header {
   text-align: center;
   color: #2e2f42;
 }
-.teem p {
+.list-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -140,7 +149,7 @@ header {
   text-align: center;
   color: #434455;
 }
-.portfolio h2 {
+.portfolio-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -149,8 +158,9 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
-.portfolio h3 {
+.portfolio-list-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -159,7 +169,7 @@ header {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.portfolio p {
+.portfolio-list-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -168,10 +178,10 @@ header {
   letter-spacing: 0.02em;
   color: #434455;
 }
-footer {
+.footer {
   background-color: #2e2f42;
 }
-footer p {
+.footer-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -180,7 +190,7 @@ footer p {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.logo-2 {
+.logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
