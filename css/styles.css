@@ -90,7 +90,8 @@ header {
   cursor: pointer;
   background-color: #4d5ae5;
 }
-.title-button:hover .title-button:focus {
+.title-button:hover,
+.title-button:focus {
   background-color: #404bbf;
 }
 
